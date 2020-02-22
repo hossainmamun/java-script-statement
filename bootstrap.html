@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>all class</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+
+
+    <style>
+        /* sm device min width started with 576px */
+        @media(min-width: 576px){
+            body{
+                background: red;
+            }
+        }
+        /* md device min width started with 768px */
+        @media(min-width: 768px){
+            body{
+                background: blue;
+            }
+        }
+        /* lg device min width started with 992px */
+        @media(min-width: 992px){
+            body{
+                background: white;
+            }
+        }
+        /* extra lg device min width started with 1200px */
+        @media(min-width: 1200px){
+            body{
+                background: lime;
+            }
+        }
+
+        /*maxmim to minmum width*/
+        /* extra sm device maximum width 575px */
+        @media(max-width: 575px){
+            body{
+                background: orange;
+            }
+        }
+        /* sm device maximum width  767px*/
+        @media(max-width: 767px){
+            body{
+                background: gray;
+            }
+        }
+        /* md device maximum width 991px */
+        @media(max-width: 991px){
+            body{
+                background: pink;
+            }
+        }
+        /* lg device maximum width 1199px */
+        @media(max-width: 1199px){
+            body{
+                background: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="margin-top: 40px;"></div>
+    
+    <div class="container">
+    <!--heading and typography-->
+    <h1 class="h6 text-success bg-dark">heading one</h1>
+    <h2 class="h5 text-success bg-dark">heading two</h2>
+    <h3 class="h4 text-success bg-dark">heading three</h3>
+    <h4 class="h3 text-success bg-dark">heading four</h4>
+    <h5 class="h2 text-success bg-dark">heading five</h5>
+    <h6 class="h1 text-success bg-dark">heading six</h6>
+
+    <!---display class-->
+    <p class="display-1">display one</p>
+    <p class="display-2">display two</p>
+    <p class="display-3">display three</p>
+    <p class="display-4">display four</p>
+
+    <!---lead class-->
+    <p class="lead text-justify">this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph this is a paragraph</p>
+    
+
+    <!---font weight class-->
+    <p class="font-weight-bolder">font weight bolder</p>
+    <p class="font-weight-bold">font weight bold</p>
+    <p class="font-weight-normal">font weight normal</p>
+    <p class="font-weight-light">font weight light</p>
+    <p class="font-weight-lighter">font weight lighter</p>
+    <p class="font-italic">font italic</p>
+
+    <!-----text transform----->
+    <h4 class="text-uppercase">text uppercasea</h4>
+    <h4 class="text-lowercase">text lowercase</h4>
+    <h4 class="text-capitalize">text capitalize</h4>
+
+    <!--list class-->
+    <ul class="list-unstyled">
+        <li class="list-inline-item">list one</li>
+        <li class="list-inline-item">list one</li>
+        <li class="list-inline-item">list one</li>
+        <li class="list-inline-item">list one</li>
+    </ul>
+
+    <br>
+
+        <ul class="list-inline">
+            <li class="list-inline-item btn btn-outline-danger">list one</li>
+            <li class="list-inline-item btn btn-outline-danger">list one</li>
+            <li class="list-inline-item btn btn-outline-danger">list one</li>
+            <li class="list-inline-item btn btn-outline-danger">list one</li>
+        </ul>
+
+    <!--text alignment-->
+    <p class="text-center">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <hr>
+
+    <p class="text-justify">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <hr>
+
+    <p class="text-right">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <hr>
+
+    <p class="text-left">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> <hr>
+    
+    <br><br><br>
+
+    <!---responsive alignment-->
+
+    <p class="text-sm-right">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</p><hr>
+    
+    <p class="text-md-right">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</p><hr>
+
+    <p class="text-lg-right">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</p><hr>
+
+    <p class="text-xl-right">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</p><hr>
+
+
+    <!--sticky top-->
+    <div class=" sticky-top bg-success py-4">
+        <h2 class="text-center text-light">sticky top</h2>
+    </div>
+    <hr>
+
+    <!--vertical alignment-->
+    <table style="height: 100px;" class="bg-success">
+        <tr>
+            <td class="align-baseline pr-2">align baseline</td>
+            <td class="align-top pr-2">align top</td>
+            <td class="align-middle pr-2">align middle</td>
+            <td class="align-bottom pr-2">align bottom</td>
+            <td class="align-text-top pr-2">align text top</td>
+            <td class="align-text-bottom pr-2">align text bottom</td>
+        </tr>
+    </table>
+    <br>
+
+    <!--clear fix-->
+    <hr>
+    <div class="bg-light clearfix">
+        <button class="btn btn primary float-left">button one</button><br>
+        <button class="btn btn primary float-right">button two</button><br>
+    </div>
+
+    
+    <hr>
+    <!--float and fixed position-->
+    <div class="float-left">float left</div><br>
+    <div class="float-right">float right</div><br>
+    <div class="float-none">float none</div><br>
+
+    <br>
+    <hr>
+    <!--responsive float-->
+    <div class="float-sm-left">responsive float sm left</div><br>
+    <div class="float-md-left">responsive float md left</div><br>
+    <div class="float-lg-left">responsive float lg left</div><br>
+    <div class="float-xl-left">responsive float xl left</div><br>
+
+    <hr>
+    <!--responsive float-->
+    <div class="float-sm-right">responsive float sm rgiht</div><br>
+    <div class="float-md-right">responsive float md rgiht</div><br>
+    <div class="float-lg-right">responsive float lg rgiht</div><br>
+    <div class="float-xl-right">responsive float xl rgiht</div><br>
+
+    <hr>
+    <!--responsive float-->
+    <div class="float-sm-none">responsive float sm none</div><br>
+    <div class="float-md-none">responsive float md none</div><br>
+    <div class="float-lg-none">responsive float lg none</div><br>
+    <div class="float-xl-none">responsive float xl none</div><br>
+
+    
+    <!----fixed top, fixed bottom, sticky top-->
+    <div class="container bg-success fixed-top">
+        <h2 class="text-center text-light">fixed top</h2>
+    </div>
+    <hr>
+    
+
+    <hr>
+    <div class="container fixed-bottom bg-success">
+        <h2 class="text-center text-light">fixed bottom</h2>
+    </div>
+
+
+    <!--colors and background-->
+    <p class="text-primary">text color primary</p>
+    <p class="text-secondary">text color secondary</p>
+    <p class="text-success">text color success</p>
+    <p class="text-danger">text color danger</p>
+    <p class="text-warning">text color warning</p>
+    <p class="text-info">text color info</p>
+    <p class="text-dark">text color dark</p>
+    <p class="text-light bg-dark">text color light</p>
+    <p class="text-body">text color body</p>
+    <p class="text-muted">text color muted</p>
+    <p class="text-light-50">text color light-50</p>
+    <p class="text-dark-50">text color dark-50</p>
+    <p class="text-white- bg-dark">text color white</p>
+
+    <!--background-->
+    <p class="bg-primary">bg primary</p>
+    <p class="bg-secondary">bg secondary</p>
+    <p class="bg-success">bg sussess</p>
+    <p class="bg-warning">bg warning</p>
+    <p class="bg-danger">bg danger</p>
+    <p class="bg-dark text-light">bg dark</p>
+    <p class="bg-info">bg info</p>
+    <p class="bg-light">bg light</p>
+    <p class="bg-transperant">transparant</p>
+    <br><br>
+
+    /* margin and padding */
+    <h4 class="m-5">this is margin segment all</h4>
+    <hr>
+    <h4 class="ml-0">this is margin segment 0</h4>
+    <hr>
+    <h4 class="ml-1">this is margin segment 1</h4>
+    <hr>
+    <h4 class="ml-2">this is margin segment 2</h4>
+    <hr>
+    <h4 class="ml-3">this is margin segment 3</h4>
+    <hr>
+    <h4 class="ml-4">this is margin segment 4</h4>
+    <hr>
+    <h4 class="ml-5">this is margin segment 5</h4> 
+    
+     
+    /* margin right */
+    <h5 class="mr-0">this is margin of the right side 0</h5>
+    <hr>
+    <h5 class="mr-1">this is margin of the right side 1</h5>
+    <hr>
+    <h5 class="mr-2">this is margin of the right side 2</h5>
+    <hr>
+    <h5 class="mr-3">this is margin of the right side 3</h5>
+    <hr>
+    <h5 class="mr-4">this is margin of the right side 4</h5>
+    <hr>
+    <h5 class="mr-5">this is margin of the right side 5</h5>
+    <hr>
+
+
+    /* margin up */
+    <h5 class="mt-0">this is margin of the right side 0</h5>
+    <hr>
+    <h5 class="mt-1">this is margin of the right side 1</h5>
+    <hr>
+    <h5 class="mt-2">this is margin of the right side 2</h5>
+    <hr>
+    <h5 class="mt-3">this is margin of the right side 3</h5>
+    <hr>
+    <h5 class="mt-4">this is margin of the right side 4</h5>
+    <hr>
+    <h5 class="mt-5">this is margin of the right side 5</h5>
+    <hr>
+
+
+    /* margin bottom */
+    <h5 class="mb-0">this is margin of the right side 0</h5>
+    <hr>
+    <h5 class="mb-1">this is margin of the right side 1</h5>
+    <hr>
+    <h5 class="mb-2">this is margin of the right side 2</h5>
+    <hr>
+    <h5 class="mb-3">this is margin of the right side 3</h5>
+    <hr>
+    <h5 class="mb-4">this is margin of the right side 4</h5>
+    <hr>
+    <h5 class="mb-5">this is margin of the right side 5</h5>
+    <hr>
+
+    /* padding all */
+    <h5 class="p-5 bg-success">padding all</h5>
+    <hr>
+    <h5 class="p-0 bg-success">padding 0</h5>
+    <hr>
+    <h5 class="p-1 bg-success">padding 1</h5>
+    <hr>
+    <h5 class="p-2 bg-success">padding 2</h5>
+    <hr>
+    <h5 class="p-3 bg-success">padding 3</h5>
+    <hr>
+    <h5 class="p-4 bg-success">padding 4</h5>
+    <hr>
+    <h5 class="p-5 bg-success">padding 5</h5>
+    <hr>
+
+    /* padding left*/
+    <h5 class="pl-5 bg-success">padding all</h5>
+    <hr>
+    <h5 class="pl-0 bg-success">padding 0</h5>
+    <hr>
+    <h5 class="pl-1 bg-success">padding 1</h5>
+    <hr>
+    <h5 class="pl-2 bg-success">padding 2</h5>
+    <hr>
+    <h5 class="pl-3 bg-success">padding 3</h5>
+    <hr>
+    <h5 class="pl-4 bg-success">padding 4</h5>
+    <hr>
+    <h5 class="pl-5 bg-success">padding 5</h5>
+    <hr>
+
+    /* padding right */
+    
+    <h5 class="pr-0 bg-success">padding 0</h5>
+    <hr>
+    <h5 class="pr-1 bg-success">padding 1</h5>
+    <hr>
+    <h5 class="pr-2 bg-success">padding 2</h5>
+    <hr>
+    <h5 class="pr-3 bg-success">padding 3</h5>
+    <hr>
+    <h5 class="pr-4 bg-success">padding 4</h5>
+    <hr>
+    <h5 class="pr-5 bg-success">padding 5</h5>
+    <hr>
+
+    /*padding top */
+    
+    <h5 class="pt-0 bg-success">padding 0</h5>
+    <hr>
+    <h5 class="pt-1 bg-success">padding 1</h5>
+    <hr>
+    <h5 class="pt-2 bg-success">padding 2</h5>
+    <hr>
+    <h5 class="pt-3 bg-success">padding 3</h5>
+    <hr>
+    <h5 class="pt-4 bg-success">padding 4</h5>
+    <hr>
+    <h5 class="pt-5 bg-success">padding 5</h5>
+    <hr>
+
+    /* padding bottom */
+    
+    <h5 class="pb-0 bg-success">padding 0</h5>
+    <hr>
+    <h5 class="pb-1 bg-success">padding 1</h5>
+    <hr>
+    <h5 class="pb-2 bg-success">padding 2</h5>
+    <hr>
+    <h5 class="pb-3 bg-success">padding 3</h5>
+    <hr>
+    <h5 class="pb-4 bg-success">padding 4</h5>
+    <hr>
+    <h5 class="pb-5 bg-success">padding 5</h5>
+    <hr>
+
+    /* padding vertical */
+    <h5 class="py-5 bg-primary">padding vertical</h5>
+    <hr>
+
+    /* margin vertical */
+    <h5 class="my-5 bg-info">margin vertical</h5>
+
+
+
+    <!--sizing width and height-->
+    <div class="w-25 bg-danger">
+        <h4>width 25%</h4>
+    </div>
+    <hr>
+    <div class="w-50 bg-danger">
+        <h4>width 50%</h4>
+    </div>
+    <hr>
+    <div class="w-75 bg-danger">
+        <h4>width 75%</h4>
+    </div>
+    <hr>
+    <div class="w-100 bg-danger">
+        <h4>width 100%</h4>
+    </div>
+    <hr>
+
+    <!--height-->
+    <div style="height: 300px; border: 1px solid red;">
+        <h3 class="h-25 bg-primary">height 25%</h3>
+        <h3 class="h-50 bg-success">height 50%</h3>
+        
+    </div>
+
+    <br><br>
+    <!--button and button tags-->
+    /* button and button tags */
+    <br>
+
+    <button class="btn btn-primary">button primary</button>
+    <button class="btn btn-secondary">button secondary</button>
+    <button class="btn btn-success">button success</button>
+    <button class="btn btn-danger">button danger</button>
+    <button class="btn btn-warning">button warning</button>
+    <button class="btn btn-info">button info</button>
+    <button class="btn btn-link">button link</button>
+    <button class="btn btn-light">button light</button>
+
+    <hr>
+    <br>
+    <div>
+        <button class="btn btn-outline-primary">btn primary-outline</button>
+        <button class="btn btn-outline-secondary">btn secondary-outline</button>
+        <button class="btn btn-outline-success">btn success-outline</button>
+        <button class="btn btn-outline-danger">btn danger-outline</button>
+        <button class="btn btn-outline-warning">btn warning-outline</button>
+        <button class="btn btn-outline-info">btn info-outline</button>
+        <button class="btn btn-outline-link">btn link-outline</button>
+        <button class="btn btn-outline-light">btn lignt-outline</button>
+    </div>
+
+    <!--button tags -->
+    <input class="btn btn-primary" type="text" value="button">
+    <input class="btn btn-primary" type="submit" value="submit">
+    <input class="btn btn-primary" type="reset" value="reset">
+    <input class="btn btn-primary" type="button" value="button">
+    <input class="btn btn-primary" type="password">
+
+    <hr>
+    <br>
+    <button class="btn btn-success btn-sm">btn sm</button>
+    <button class="btn btn-success btn-lg">btn lg</button>
+    <button class="btn btn-success btn-block">btn block</button>
+
+    <hr>
+    <br>
+    <button class="btn btn-danger active">btn active</button>
+    <button class="btn btn-danger disabled">btn disabled</button>
+    <button class="btn btn-danger toggle" data-toggle="button" type="button">btn toggle</button>
+
+    <!-- button dropdown -->
+    <div class="dropdwon">
+        <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">dropdown</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">dropdown bar</a>
+            <a class="dropdown-item" href="#">dropdown bar</a>
+            <a class="dropdown-item" href="#">dropdown bar</a>
+            <a class="dropdown-item" href="#">dropdown bar</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!--button dropdown-->
+    <div class="dropdown">
+        <button class="btn btn-outline-danger dropdown-toggle" data-toggle="dropdown" type="button">dropdown</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">click the link</a>
+            <a class="dropdown-item" href="#">click the link</a>
+            <a class="dropdown-item" href="#">click the link</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">click the link</a>
+        </div>
+    </div>
+
+    <br><br>
+    <!--split dropdown-->
+    <div class="btn-group">
+        <button class="btn btn-outline-primary" type="button">split btn</button>
+        <button class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" type="button">
+            <span class="sr-only">toggle dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item bg-success" href="#">click the link</a>
+            <a class="dropdown-item bg-success" href="#">click the link</a>
+            <a class="dropdown-item bg-success" href="#">click the link</a>
+            <a class="dropdown-item bg-success" href="#">click the link</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item bg-success" href="#">click the link</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="btn-group">
+        <button class="btn btn-success" type="button">button group</button>
+        <button class="btn btn-primary" type="button">button group</button>
+        <button class="btn btn-success" type="button">button group</button>
+        <button class="btn btn-primary" type="button">button group</button>
+    </div>
+
+    <br><br>
+    <div class="btn-toolbar" role="toolbar">
+        <div class="btn-group ml-2">
+            <button class="btn btn-success">1</button>
+            <button class="btn btn-success">2</button>
+            <button class="btn btn-success">3</button>
+            <button class="btn btn-success">4</button>
+        </div>
+        <div class="btn-group ml-2">
+            <button class="btn btn-success">5</button>
+            <button class="btn btn-success">6</button>
+            <button class="btn btn-success">7</button>
+            <button class="btn btn-success">8</button>
+        </div>
+        <div class="btn-group ml-2">
+            <button class="btn btn-success">9</button>
+            <button class="btn btn-success">10</button>
+            <button class="btn btn-success">11</button>
+            <button class="btn btn-success">12</button>
+        </div> 
+    </div>
+
+    <br><br>
+        <div class="btn-group-vertical">
+            <button class="btn btn-info">vertical btn</button>
+            <button class="btn btn-info">vertical btn</button>
+            <button class="btn btn-info">vertical btn</button>
+            <button class="btn btn-info">vertical btn</button>
+        </div>
+
+        <br><br>
+        <!--list group and badge-->
+        <div class="list-group">
+            <li class="list-group-item">list one</li>
+            <li class="list-group-item">list one</li>
+            <li class="list-group-item">list one</li>
+            <li class="list-group-item">list one</li>
+            <li class="list-group-item">list one</li>
+        </div>
+
+        <hr>
+        <!--list group with link-->
+        <div class="list-group">
+            <a class="list-group-item list-group-item-action active" href="#">list link</a>
+            <a class="list-group-item list-group-item-action" href="#">list link</a>
+            <a class="list-group-item list-group-item-action" href="#">list link</a>
+            <a class="list-group-item list-group-item-action" href="#">list link</a>
+            <a class="list-group-item list-group-item-action" href="#">list link</a>
+        </div>
+
+        <hr>
+        
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active">button</button>
+            <button type="button" class="list-group-item list-group-item-action">button</button>
+            <button type="button" class="list-group-item list-group-item-action">button</button>
+            <button type="button" class="list-group-item list-group-item-action">button</button>
+            <button type="button" class="list-group-item list-group-item-action">button</button>
+        </div>
+
+        <hr>
+        <div class="list-group">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-action">flash item</li>
+                <li class="list-group-item list-group-item-action">flash item</li>
+                <li class="list-group-item list-group-item-action">flash item</li>
+                <li class="list-group-item list-group-item-action">flash item</li>
+                <li class="list-group-item list-group-item-action">flash item</li>
+                <li class="list-group-item list-group-item-action">flash item</li>
+            </ul>
+        </div>
+
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">list badges</li>
+            <li class="list-group-item">list badges</li>
+            <li class="list-group-item">list badges
+                <span class="badge badge-success align-top">24</span>
+            </li>
+            <li class="list-group-item">list badges</li>
+            <li class="list-group-item">list badges
+                <span class="badge badge-success align-top">55</span>
+            </li>
+        </ul>
+
+        <div>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item list-group-item-action list-group-item-primary">group horizantal</li>
+                <li class="list-group-item list-group-item-action list-group-item-secondary">group horizantal</li>
+                <li class="list-group-item list-group-item-action list-group-item-success">group horizantal</li>
+                <li class="list-group-item list-group-item-action list-group-item-danger">group horizantal</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">group horizantal</li>
+                <li class="list-group-item list-group-item-action list-group-item-info">group horizantal</li>
+            </ul>
+        </div>
+
+        <hr>
+        <div>
+            <ul class="list-group list-group-horizontal">
+                <a class="list-group-item list-group-item-action list-group-item-danger" href="#">list group contextual</a>
+                <a class="list-group-item list-group-item-action list-group-item-danger" href="#">list group contextual</a>
+                <a class="list-group-item list-group-item-action list-group-item-danger" href="#">list group contextual</a>
+                <a class="list-group-item list-group-item-action list-group-item-danger" href="#">list group contextual</a>
+                <a class="list-group-item list-group-item-action list-group-item-danger" href="#">list group contextual</a>
+                <a class="list-group-item list-group-item-action list-group-item-danger" href="#">list group contextual</a>
+                <a class="list-group-item list-group-item-action list-group-item-danger" href="#">list group contextual</a>
+            </ul>
+        </div>
+
+        <hr>
+        
+        <!--responsive list-group horizontal-->
+        
+
+        <div>
+            <ul class="list-group list-group-horizontal-sm">
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal sm</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal sm</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal sm</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal sm</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal sm</li>
+            </ul>
+        </div>
+        <hr>
+
+        <div>
+            <ul class="list-group list-group-horizontal-md">
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal md</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal md</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal md</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal md</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal md</li>
+            </ul>
+        </div>
+        <hr>
+
+        <div>
+            <ul class="list-group list-group-horizontal-lg">
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal lg</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal lg</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal lg</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal lg</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal lg</li>
+            </ul>
+        </div>
+        <hr>
+
+        <div>
+            <ul class="list-group list-group-horizontal-xl">
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal xl</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal xl</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal xl</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal xl</li>
+                <li class="list-group-item list-group-item-action list-group-item-warning">list group horizontal xl</li>
+            </ul>
+        </div>
+        <hr>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active pb-4">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5>list group item heading</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac porta arcu. Maecenas at consectetur dolor. Cras mauris mi, lacinia sit amet felis et, lacinia rhoncus lectus. Proin eu rhoncus nibh.</p>
+                <small>post by mamun hossain</small>
+            </a>
+            
+            <a href="#" class="list-group-item list-group-item-action pb-4">
+                <div class="d-flex justify-content-between">
+                    <h5>list group item heading</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac porta arcu. Maecenas at consectetur dolor. Cras mauris mi, lacinia sit amet felis et, lacinia rhoncus lectus. Proin eu rhoncus nibh.</p>
+                <small>post by mamun hossain</small>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action pb-4">
+                <div class="d-flex justify-content-between">
+                    <h5>list group item heading</h5>
+                    <small>3 days ago</small>
+                </div>
+                <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac porta arcu. Maecenas at consectetur dolor. Cras mauris mi, lacinia sit amet felis et, lacinia rhoncus lectus. Proin eu rhoncus nibh.</p>
+                <small class="badge">post by mamun hossain</small>
+            </a>
+        </div>
+
+        <hr>
+        <div class="list-group list-group-flush">
+            <li class="list-group-item">list group flust</li>
+            <li class="list-group-item">list group flust</li>
+            <li class="list-group-item">list group flust</li>
+            <li class="list-group-item">list group flust</li>
+            <li class="list-group-item">list group flust</li>
+        </div>
+
+        <hr>
+        <ol class="breadcrumb">
+            <li>home</li>
+        </ol>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="">home</a></li>
+            <li class="breadcrumb-item active">group</li>
+        </ol>
+
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="">home</a></li>
+            <li class="breadcrumb-item"><a href="">group</a></li>
+            <li class="breadcrumb-item active">member</li>
+        </ol>
+
+        <hr>
+        <div>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">breadcrumb</a></li>
+            </ol>
+
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">breadcrumbs</a></li>
+                <li class="breadcrumb-item active">breadcrumb</li>
+            </ol>
+
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">breadcrumb home</a></li>
+                <li class="breadcrumb-item"><a href="#">breadcrumb page two</a></li>
+                <li class="breadcrumb-item active">breadcrumb</li>
+            </ol>
+        </div>
+
+        <hr>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action active">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5>this is custom content heading</h5>
+                    <small>5 days ago</small>
+                </div>
+                <p>once upon a time there was an astronaut called wafi. he liked going to space in his rocket. wafi liked going to space in his rocket. wafi liked to exploring and looking for aliens, he travelled to the moon and saw a riendly alian flying in his spaceship. wafi could see the Earth and asteroids in the sky.
+                The friendly alien wanted to be friends with Wafi. The alien said , "Hello. Will you be my friends?" 
+                Wafi said , "Hello. will you show me your planet? i liked to explore."
+                Wafi and the alien sat on the moon buggy and went exporing.
+                </p>
+                <small>posted by <strong>Wafi Khan</strong></small><br>
+                <small>Anderton Park Primary School, Sparkhill, England</small>
+
+            <a href="#" class="list-group-item list-group-item-action ">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5>this is custom content heading</h5>
+                    <small>5 days ago</small>
+                </div>
+                <p>once upon a time there was an astronaut called wafi. he liked going to space in his rocket. wafi liked going to space in his rocket. wafi liked to exploring and looking for aliens, he travelled to the moon and saw a riendly alian flying in his spaceship. wafi could see the Earth and asteroids in the sky.
+                The friendly alien wanted to be friends with Wafi. The alien said , "Hello. Will you be my friends?" 
+                Wafi said , "Hello. will you show me your planet? i liked to explore."
+                Wafi and the alien sat on the moon buggy and went exporing.
+                </p>
+                <small>posted by <strong>Wafi Khan</strong></small><br>
+                <small>Anderton Park Primary School, Sparkhill, England</small>
+
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5>this is custom content heading</h5>
+                    <small>5 days ago</small>
+                </div>
+                <p>once upon a time there was an astronaut called wafi. he liked going to space in his rocket. wafi liked going to space in his rocket. wafi liked to exploring and looking for aliens, he travelled to the moon and saw a riendly alian flying in his spaceship. wafi could see the Earth and asteroids in the sky.
+                The friendly alien wanted to be friends with Wafi. The alien said , "Hello. Will you be my friends?" 
+                Wafi said , "Hello. will you show me your planet? i liked to explore."
+                Wafi and the alien sat on the moon buggy and went exporing.
+                </p>
+                <small>posted by <strong>Wafi Khan</strong></small><br>
+                <small>Anderton Park Primary School, Sparkhill, England</small>
+            </a>
+        </div>
+
+        <!--alerts and progress bar-->
+        <div class="alert alert-primary">
+            a simple primary alert- check it out!
+        </div>
+        <div class="alert alert-secondary">
+            a simple secondary alert- check it out!
+        </div>
+        <div class="alert alert-success">
+            a simple success alert- check it out!
+        </div>
+        <div class="alert alert-danger">
+            a simple danger alert- check it out!
+        </div>
+        <div class="alert alert-warning">
+            a simple warning alert- check it out!
+        </div>
+        <div class="alert alert-dark">
+            a simple dark alert- check it out!
+        </div>
+        <div class="alert alert-info">
+            a simple info alert- check it out!
+        </div>
+
+        <hr>
+        <div class="alert alert-primary">
+            a primary alert is shown <a class="alert-link" href="#">click the link</a>check it out
+        </div>
+        <div class="alert alert-secondary">
+                a primary alert is shown <a class="alert-link" href="#">click the link</a>check it out
+        </div>
+        <div class="alert alert-success">
+                a primary alert is shown <a class="alert-link" href="#">click the link</a>check it out
+        </div>
+        <div class="alert alert-danger">
+                a primary alert is shown <a class="alert-link" href="#">click the link</a>check it out
+        </div>
+        <div class="alert alert-warning">
+                a primary alert is shown <a class="alert-link" href="#">click the link</a>check it out
+        </div>
+        <div class="alert alert-dark">
+                a primary alert is shown <a class="alert-link" href="#">click the link</a>check it out
+        </div>
+        <div class="alert alert-info">
+                a primary alert is shown <a class="alert-link" href="#">click the link</a>check it out
+        </div>
+
+        <!--dismissable alert-->
+        <div class="alert alert-danger alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+            <strong>dismissable alert</strong>
+            hi this is the dismissable alert check it out
+        </div>
+
+        <div class="alert alert-dark alert-dismissable">
+            <strong>dismissable</strong>
+            check out the update last success-outline
+            <button class="close" data-dismiss="alert" type="button">
+                <span>&times;</span>
+            </button>
+        </div>
+
+        <!--progress bar-->
+        <div class="progress">
+            <div class="progress-bar" style="width: 25%">progress 25%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar" style="width: 50%">progress 50%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar" style="width: 75%">progress 75%</div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar" style="width: 100%">progress 100%</div>
+        </div>
+        <br>
+        <div class="progress" style="height: 25px;">
+            <div class="progress-bar progress-bar-animated progress-bar-striped w-75">progress 75%</div>
+        </div>
+        <br>
+        <div class="progress" style="height: 20px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated w-75 bg-success">progress bar striped</div>
+        </div>
+        
+
+        
+        
+
+
+    <div style="margin-top: 50px;"></div>
+    </div>
+
+    <!------scripting code------>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
